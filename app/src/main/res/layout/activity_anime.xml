@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.menu.activities.AnimeActivity"
+    android:background="#303030">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="50dp"
+                >
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/loading_shape"
+                    android:id="@+id/aa_thumbnail"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:orientation="vertical"
+                    android:layout_margin="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/aa_order_title"
+                        android:text="Order No. : "
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/aa_order_id"
+                        android:text="Order ID"
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+                </LinearLayout>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/aa_anime_name"
+                        android:text="Anime Title"
+                        android:textStyle="bold"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:id="@+id/aa_email"/>
+
+
+                    <TextView
+                        android:id="@+id/aa_telephone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_baseline_call_24"
+                        android:paddingRight="5dp"
+                        android:text="0.0"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Studio"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/aa_total"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        <TextView
+            android:textColor="#fff"
+            android:text="Anime Description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aa_description"/>
+
+
+    
+</LinearLayout>

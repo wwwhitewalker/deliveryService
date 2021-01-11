@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:menuCategory="secondary"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_menu_send"
+            android:menuCategory="secondary"
+            android:title="Order" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:menuCategory="secondary"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_phistory"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:menuCategory="secondary"
+            android:title="Payment History" />
+    </group>
+</menu>
